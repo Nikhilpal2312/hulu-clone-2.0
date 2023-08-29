@@ -32,7 +32,7 @@ const getFectMovies = () =>{
             <h2 className='text-white text-3xl lg:text-5xl font-extrabold md:text-[24px]'>{movieList.original_title}</h2>
            <div className='flex gap-5 mt-10'>
            <button className='bg-[#66aa33] px-6 py-2 rounded-md text-white font-medium text-[16px]'>Play</button>
-            <button className='bg-transprant border-2 border-white px-6 py-2 rounded-md curser-pointer hover:border-gray-600 text-white'>Details</button>
+            <button className='bg-transprant border-2 border-white px-6 py-2 rounded-md curser-pointer hover:border-[#66aa33] text-white'>Details</button>
            </div>
         </div>
       <img src={IMAGE_BASE_URL+movieList.backdrop_path} width={1920} height={1080} className='object-cover h-[80vh]' alt="" />

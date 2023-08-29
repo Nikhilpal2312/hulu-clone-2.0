@@ -7,7 +7,7 @@ const GenreMovieList = () => {
   return (
     <div className='mt-5 p-5 px-10 md:px-20'>
       {
-        GenresList.genere.map((items,index)=>index<10&&(
+        GenresList.genere.map((items,index)=>index>7&&(
             <div>
                 <h2 className='text-white text-xl font-bold'>{items.name}
                 <span className='float-right text-[14px] font-normal cursor-pointer text-gray-400 items-center  hover:text-white'>View All</span>
